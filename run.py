@@ -11,6 +11,7 @@ import itertools
 import warnings
 import random
 
+# arguments
 def parse_arguments():
 
     parser = argparse.ArgumentParser()
