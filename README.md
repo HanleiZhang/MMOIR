@@ -1,4 +1,4 @@
-# MMIA
+# MultiModal Intent Analysis (MMIA)
 
 <p align="center">
 <a target="_blank">
