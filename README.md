@@ -1,4 +1,4 @@
-# Mmoir
+# MMOIR
 
 <p align="center">
 <a target="_blank">
