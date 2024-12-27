@@ -15,7 +15,7 @@ MMOIR is the first multimodal platform for open intent recognition and out-of-di
 
 | Date 	| Announcements 	|
 |-	|-	|
-| 12/2024  | 🎆 🎆 The first platform for multimodal intent recognition has been released. Refer to the directory [Mmoir](https://github.com/thuiar/Mmoir) for the dataset and codes. |
+| 12/2024  | 🎆 🎆 The first platform for multimodal intent recognition has been released. Refer to the directory [MMOIR](https://github.com/thuiar/MMOIR) for the dataset and codes. |
 | 5/2024  | 🎆 🎆  An unsupervised multimodal clustering method (UMC) has been released. Refer to the paper [UMC](https://aclanthology.org/2024.acl-long.2.pdf). |
 | 3/2024  | 🎆 🎆 A token-level contrastive learning method with modality-aware prompting (TCL-MAP) has been released. Refer to the paper [TCL-MAP](https://ojs.aaai.org/index.php/AAAI/article/view/29656). |
 | 1/2024  | 🎆 🎆 The first large-scale multimodal intent dataset has been released. Refer to the directory [MIntRec2.0](https://github.com/thuiar/MIntRec2.0) for the dataset and codes. Read the paper -- [MIntRec2.0: A Large-scale Benchmark Dataset for Multimodal Intent Recognition and Out-of-scope Detection in Conversations (Published in ICLR 2024)](https://openreview.net/forum?id=nY9nITZQjc).  |
@@ -25,7 +25,7 @@ MMOIR is the first multimodal platform for open intent recognition and out-of-di
 
 ## Features
 
-Mmoir has the following features:
+MMOIR has the following features:
 
 - **Large in Scale**: It contains 4 datasets in total, which are MintRec, MintRec2.0, MELD-DA and IEMOCAP. 
   
@@ -34,7 +34,7 @@ Mmoir has the following features:
 - **Out-of-distribution Detection**: As real-world dialogues are in the open-world scenarios as suggested in [TEXTOIR](https://github.com/thuiar/TEXTOIR), we further include an OOD tag for detecting those utterances that do not belong to any of existing intent classes. They can be used for out-of-distribution detection and improve system robustness.
 
 ## Datasets
-Here we provide the details of the datasets in Mmoir. You can download the datasets from the following links.
+Here we provide the details of the datasets in MMOIR. You can download the datasets from the following links.
 | Datasets | Source |
 |----------|--------|
 | [MintRec](https://github.com/thuiar/MIntRec) | [Paper](https://dl.acm.org/doi/abs/10.1145/3503161.3547906) |
@@ -43,7 +43,7 @@ Here we provide the details of the datasets in Mmoir. You can download the datas
 | [IEMOCAP-DA](https://github.com/sahatulika15/EMOTyDA) | [Paper](https://aclanthology.org/2020.acl-main.402/) |
 
 ## Integrated Models
-Here we provide the details of the models in Mmoir.
+Here we provide the details of the models in MMOIR.
 | Model Name | Source | Published |
 |------------|--------|-----------|
 | [MULT](./examples/multi_turn/run_mult_multiturn.sh) | [Paper](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7195022/) / [Code](https://github.com/yaohungt/Multimodal-Transformer) | ACL 2019 |
@@ -59,26 +59,26 @@ Here we provide the details of the models in Mmoir.
 
 
 ## Results
-Please refer to the [results](./results/README.md) for the detailed results of the models in Mmoir.
+Please refer to the [results](./results/README.md) for the detailed results of the models in MMOIR.
 
 ## Quick start
 
 1. Use anaconda to create Python environment
 
    ```
-   conda create --name mmoir python=3.9
-   conda activate mmoir
+   conda create --name MMOIR python=3.9
+   conda activate MMOIR
    ```
 2. Install PyTorch (Cuda version 11.2)
 
    ```
    conda install pytorch torchvision torchaudio cudatoolkit=11.3 -c pytorch
    ```
-3. Clone the Mmoir repository.
+3. Clone the MMOIR repository.
 
    ```
-   git clone git@github.com:thuiar/Mmoir.git
-   cd Mmoir
+   git clone git@github.com:thuiar/MMOIR.git
+   cd MMOIR
    ```
 4. Install related environmental dependencies
 
