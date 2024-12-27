@@ -1,5 +1,5 @@
 # Results
-Here we provide the results of the models in Mmoir. For supervised models, we have recorded three dimensions of metrics: ID classification, ID+OOD classification, and OOD detection.
+Here we provide the results of the models in MMIA. For supervised models, we have recorded three dimensions of metrics: ID classification, ID+OOD classification, and OOD detection.
 
 <table>
   <thead>
